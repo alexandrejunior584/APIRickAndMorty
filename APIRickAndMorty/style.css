@@ -1,0 +1,62 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+width:10px;
+height: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+background: black;
+}
+ 
+::-webkit-scrollbar-thumb {
+background: #4cd137;
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	color: #4cd137;
+	font-family: 'Patrick Hand', cursive;
+}
+
+strong{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 18px;
+}
+
+#card{
+	width: 70%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-grid{
+	margin-bottom: 40px;
+}
+
+img{
+	margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 786px) {
+
+	#card{
+		display: block;
+	}
+
+	h2 {
+	    font-size: 30px;
+	    text-align: center;
+	    color: #4cd137;
+	    font-family: 'Patrick Hand', cursive;
+	}
+
+}
